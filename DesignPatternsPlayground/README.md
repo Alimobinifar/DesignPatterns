@@ -14,20 +14,22 @@ Each pattern is organized in its own folder and comes with a **demo class** so y
 DesignPatternsPlayground/
 │
 ├── Behavioral/
-│ └── Strategy/
-│	├── IDiscountStrategy.cs
-│   ├── RegularCustomerDiscount.cs
-│	├── VipCustomerDiscount.cs
-│   ├── SeasonalDiscount.cs
-│	├── CouponCodeDiscount.cs
-│	├── PriceCalculator.cs
-│	└── StrategyDemo.cs
+│   └── Strategy/
+│       ├── IDiscountStrategy.cs
+│       ├── RegularCustomerDiscount.cs
+│       ├── VipCustomerDiscount.cs
+│       ├── SeasonalDiscount.cs
+│       ├── CouponCodeDiscount.cs
+│       ├── PriceCalculator.cs
+│       └── StrategyDemo.cs
 │
 ├── Creational/
-│ └── ...
+│   └── Singleton/
+│       ├── Logger.cs
+│       └── SingletonDemo.cs
 │
 ├── Structural/
-│ └── ...
+│   └── ...
 │
 └── Program.cs
 

@@ -1,4 +1,5 @@
 ﻿using DesignPatternsPlayground.Behaviral.Strategy;
+using DesignPatternsPlayground.Creational.Singleton;
 
 class Program
 {
@@ -7,10 +8,8 @@ class Program
         Console.WriteLine("Design Patterns Playground 🚀");
 
         // اجرای دموهای مختلف
-        StrategyDemo.Run();
+        //StrategyDemo.Run();
+        SingletonDemo.Run();
 
-        // در آینده:
-        // FactoryDemo.Run();
-        // SingletonDemo.Run();
     }
 }
