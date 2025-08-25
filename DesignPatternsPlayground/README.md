@@ -9,8 +9,10 @@ The purpose of this repository is to provide **clean, minimal, and educational i
 Each pattern is organized in its own folder and comes with a **demo class** so you can run and test it directly.
 
 ---
+
 ## 📂 Project Structure
 DesignPatternsPlayground/
+│
 ├── Behavioral/
 │ └── Strategy/
 │	├── IDiscountStrategy.cs
@@ -20,11 +22,15 @@ DesignPatternsPlayground/
 │	├── CouponCodeDiscount.cs
 │	├── PriceCalculator.cs
 │	└── StrategyDemo.cs
+│
 ├── Creational/
 │ └── ...
+│
 ├── Structural/
 │ └── ...
+│
 └── Program.cs
+
 
 ---
 
