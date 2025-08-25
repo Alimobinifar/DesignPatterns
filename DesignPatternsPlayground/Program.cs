@@ -1,4 +1,5 @@
 ﻿using DesignPatternsPlayground.Behaviral.Strategy;
+using DesignPatternsPlayground.Creational.FactoryMethod;
 using DesignPatternsPlayground.Creational.Singleton;
 
 class Program
@@ -9,7 +10,8 @@ class Program
 
         // اجرای دموهای مختلف
         //StrategyDemo.Run();
-        SingletonDemo.Run();
+        //SingletonDemo.Run();
+        FactoryDemo.Run();
 
     }
 }
