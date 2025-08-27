@@ -1,6 +1,5 @@
 ﻿using DesignPatternsPlayground.Behaviral.Strategy;
-using DesignPatternsPlayground.Creational.FactoryMethod;
-using DesignPatternsPlayground.Creational.Singleton;
+using DesignPatternsPlayground.Creational.AbstractFactory;
 
 class Program
 {
@@ -11,7 +10,8 @@ class Program
         // اجرای دموهای مختلف
         //StrategyDemo.Run();
         //SingletonDemo.Run();
-        FactoryDemo.Run();
+        //FactoryDemo.Run();
+        AbstractFactoryDemo.Build();
 
     }
 }

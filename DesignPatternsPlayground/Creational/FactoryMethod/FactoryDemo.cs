@@ -20,12 +20,7 @@ namespace DesignPatternsPlayground.Creational.FactoryMethod
 
             var intern = EmployeeFactory.CreateEmployee("intern");
             Console.WriteLine(intern.GetDetails());
-
         }
-
-
-
-
 
     }
 }

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DesignPatternsPlayground.Creational.FactoryMethod
 {
-    public sealed class FullTimeEmployee:IEmployee
+    public sealed class FullTimeEmployee : IEmployee
     {
         public string GetDetails()
         {

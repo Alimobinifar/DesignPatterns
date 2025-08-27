@@ -9,7 +9,6 @@
 
   <ItemGroup>
     <Folder Include="Behaviral\ChainOfResponsibility\" />
-    <Folder Include="DesignPatternsPlayground.Docs\" />
   </ItemGroup>
 
 </Project>

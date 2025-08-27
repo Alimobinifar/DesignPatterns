@@ -17,6 +17,7 @@ namespace DesignPatternsPlayground.Creational.FactoryMethod
                 case "intern": return new InternEmployee();
                 default: throw new ArgumentException("Invalid employee type");
             }
+
         }
     }
 }
